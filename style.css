@@ -1,0 +1,46 @@
+@import "/normalize.css/normalize.css";
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+#logo img {
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.nav {
+    margin: 0;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+    margin: 0;
+}
+
+.nav li a {
+    display: block;
+    padding: 8px 15px;
+    margin: 0;
+}
+
+.header-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: center;
+}
